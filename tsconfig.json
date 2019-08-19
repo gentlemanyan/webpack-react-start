@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "target": "es5",
+    "rootDir": "./src",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "typeRoots": [
+      "node_module/@type"
+    ],
+    "lib": [
+      "es2015",
+      "dom",
+      "scripthost",
+      "es2018.promise"
+    ]
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}

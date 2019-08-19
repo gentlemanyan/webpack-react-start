@@ -1,0 +1,36 @@
+{
+  "name": "react-start",
+  "version": "1.0.0",
+  "description": "a webpack and react app.",
+  "main": "index.ts",
+  "author": "yan.zhang",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --open --inline --port 3600",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@hot-loader/react-dom": "^16.9.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.8.5",
+    "@types/webpack": "^4.32.2",
+    "@types/webpack-env": "^1.14.0",
+    "eslint": "^6.1.0",
+    "fork-ts-checker-notifier-webpack-plugin": "^1.0.2",
+    "fork-ts-checker-webpack-plugin": "^1.5.0",
+    "html-webpack-plugin": "^3.2.0",
+    "react-hot-loader": "^4.12.11",
+    "ts-loader": "^6.0.4",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.1"
+  }
+}
